@@ -1,9 +1,15 @@
 body { 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 0px;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 
+.dropDown {
+    width: 33%;
+}
 .container {
     display: flex;
     height: 100%;
@@ -13,7 +19,4 @@ body {
 
 .grid{
     background-color: black; 
-    width: 6%;
-    height: 6%;
-    margin: 0.125%;
 }

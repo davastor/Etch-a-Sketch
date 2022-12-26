@@ -6,9 +6,9 @@ for (let i = 1; i <= 16; i++){
         let grid = document.createElement('div');
         grid.classList.add("grid");
         grid.classList.add(`${counter}`);
-        grid.addEventListener = ('hover', () =>{grid.style.backgroundColor = "#505050"});
+        grid.addEventListener('mouseover', () =>{grid.style.backgroundColor = "rgb(80,80,80)"});
         container.appendChild(grid);
         counter++;
-        console.log(counter);
+
     }
 }
